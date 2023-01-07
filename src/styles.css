@@ -1,0 +1,238 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: ;
+}
+*/
+
+.main {
+    text-align: center;
+    font-weight: 500;
+    margin: 1.2rem auto 0 auto;
+    /* border-bottom: 0.01rem solid rgba(156, 147, 147, 0.634); */
+    /* width: 30vw; */
+}
+
+hr {
+    margin: 0.5rem auto 0 auto;
+    width: 40vw;
+}
+
+.radio-box {
+    width: 30vw;
+    margin: 0 auto 0 auto;
+}
+
+.form-check {
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.drop-down {
+    border: none;
+    margin: 0 0.1rem 0 0.5rem;
+    color: rgb(157, 4, 132);
+    font-size: 2.4vw;
+    font-weight: 600;
+    /* appearance: none; */
+    padding: 0 0 0 0.5rem;
+}
+
+.dropdown-arrow {
+    color: rgb(157, 4, 132);
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 0 0.5rem 0 0;
+}
+
+.booking {
+    margin-bottom: 3rem;
+}
+
+.booking > p {
+    font-weight: 300;
+    font-size: 2.5vw;
+    padding: 6vw 2vw 0 2vw;
+}
+
+.city {
+    font-size: 2.4vw;
+    font-weight: 600;
+    border: none;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: rgb(157, 4, 132);
+}
+
+.grid {
+    padding-bottom: 1.5rem;
+}
+
+.card-container {
+    padding-bottom: 1.5rem;
+}
+
+.card {
+    height: 8vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px 0.2px black;
+    /* width: 15%; */
+}
+
+.card-title {
+    color: purple;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+.card-desc {
+    font-size: 1.2vw;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #c9cdcbdc;
+    height: min-content;
+
+}
+
+.footer-container {
+    padding: 5rem 0 3.5rem 0;
+}
+
+.footer-img {
+    display: block;
+    padding: 0.8rem 0 0.8rem 0;
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.footer-about {
+    display: inline-block;
+    margin: 1rem auto 1rem auto;
+}
+
+.footer-link {
+    color: black;
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+
+.hiddenCard {
+    display: none;
+}
+
+.hiddenCarousel {
+    position: relative;
+}
+
+.carousel .carousel-indicators button {
+   width: 10px;
+   height: 10px;
+   border-radius: 100%;
+}
+
+.indicator-button {
+    position: absolute;
+    bottom: -5.5vw;
+}
+
+@media only screen and (max-width: 1024px) {
+    .radio-box {
+        width: 35vw;
+    }
+
+    hr {
+        margin: 0.08rem auto 0 auto;
+        width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .radio-box {
+        width: 45vw;
+    }
+
+    .form-check {
+        font-size: 2vw;
+        margin: 0;
+    }
+
+    hr {
+        margin: 0.08rem auto 0 auto;
+        width: 55vw;
+    }
+
+    .booking > p {
+        font-size: 3vw;
+    }
+
+    .drop-down {
+        font-size: 3vw;
+    }
+
+    .card {
+        height: 15vw;
+    }
+
+    .card-title, .card-desc {
+        font-size: 2vw;
+    }
+
+    .shownCard {
+        display: none;
+    }
+
+    .hiddenCard {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .radio-box {
+        width: 80vw;
+        margin: 0 auto 0 auto;
+    }
+
+    .form-check {
+        font-size: 2.5vw;
+        margin: 0;
+    }
+
+    hr {
+        width: 90vw;
+        margin: 0 auto 0 auto;
+    }
+
+    .booking > p {
+        font-size: 3.5vw;
+    }
+
+    .drop-down {
+        font-size: 3.5vw;
+    }
+
+    .card {
+        height: 15vw;
+    }
+
+    .card-title, .card-desc {
+        font-size: 2.5vw;
+    }
+
+}
